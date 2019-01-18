@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 public class LoginController {
     @RequestMapping(value = "/")
-    public String IndexPage() {
+    public String indexPage() {
         return "index";
     }
 
